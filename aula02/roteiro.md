@@ -14,12 +14,23 @@ O objetivo é criar uma interface simples de chat, onde:
 - As mensagens são exibidas em formato de chat, com histórico, igual em aplicativos reais de conversa.
 
 ---
-## 🟢 Instalando o Streamlit
+## 🟢 Instalando as Dependências
 
-Caso não tenha, instale o Streamlit com:
+> Lembre de usar o ambiente virtual ativo, .venv
 
+Instale o Streamlit com:
 ```bash
 pip install streamlit
+```
+
+Instale o LangChain Ollama:
+```bash
+pip install langchain-ollama
+```
+
+Para o Histórico de mensagens, instale o LangChain Core:
+```bash
+pip install langchain-core
 ```
 
 ---
