@@ -2,19 +2,18 @@ class PromptWebDoctor:
 
     @staticmethod
     def exemplos_diagnostico():
-        return 
-    """
-    Exemplo 1:
-        Sintomas: febre e tosse
-        Possíveis Causas: Gripe, Covid-19, Resfriado comum
-        Ações: Hidratação, repouso, e se houver piora, procurar um médico.
+        return """
+        Exemplo 1:
+            Sintomas: febre e tosse
+            Possíveis Causas: Gripe, Covid-19, Resfriado comum
+            Ações: Hidratação, repouso, e se houver piora, procurar um médico.
 
-    Exemplo 2:
-        Sintomas: dor abdominal intensa
-        Possíveis Causas: Apendicite, Gastrite, Infecção intestinal
-        Ações: Evitar alimentos gordurosos, beber água, e se a dor persistir,
-        buscar atendimento médico urgente.
-    """
+        Exemplo 2:
+            Sintomas: dor abdominal intensa
+            Possíveis Causas: Apendicite, Gastrite, Infecção intestinal
+            Ações: Evitar alimentos gordurosos, beber água, e se a dor persistir,
+            buscar atendimento médico urgente.
+        """
 
     @staticmethod
     def prompt_inicial(sintomas: str):

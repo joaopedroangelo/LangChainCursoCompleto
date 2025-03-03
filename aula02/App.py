@@ -3,6 +3,8 @@ from langchain_ollama import ChatOllama
 from langchain_core.messages import AIMessage, HumanMessage
 from Prompt_Web_Doctor import PromptWebDoctor  
 
+## teste de prompt
+## print(PromptWebDoctor.prompt_inicial("TESTE"))
 
 # Configurando a página da aplicação Streamlit
 st.set_page_config(page_title="Chat WebDoctor")  # Definindo o título da página
